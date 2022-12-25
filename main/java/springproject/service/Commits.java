@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Commits implements Comparable{
 
-    Date date;
+  Date date;
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     public Commits(String date) throws ParseException {
